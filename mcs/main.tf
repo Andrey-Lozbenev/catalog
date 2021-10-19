@@ -33,3 +33,14 @@ variable "key_name" {
 variable "owner" {
 description = "owner"
 }
+
+{
+  "owner" : "andrey.lozbenev@softline.com",
+  "key_name" : "test-andrey-sshkey",
+  "image" : "Ubuntu-18.04-202003",
+  "tenant_name" : "MCS-SFTL",
+  "shape" : "SMALL",
+  "region_name" : "MCS-SFTL-R1"
+}
+
+{}
