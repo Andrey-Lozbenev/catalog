@@ -42,5 +42,3 @@ description = "owner"
   "shape" : "MICRO",
   "region_name" : "AWS-USEAST-2"
 }
-
-{}
