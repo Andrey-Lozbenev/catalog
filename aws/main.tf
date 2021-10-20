@@ -4,7 +4,7 @@ resource "m3_instance" "my-server" {
     image = var.image
     instance_name = "instance-name"
     region_name = var.region_name
-    tenant_name = var.tenant_name
+    tenant_name = "SOFTLINE"
     shape = var.shape
     key_name = var.key_name
     owner = var.owner
