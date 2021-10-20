@@ -5,7 +5,7 @@ resource "m3_instance" "my-server" {
     instance_name = "instance-name"
     region_name = var.region_name
     tenant_name = "SOFTLINE"
-    shape = "SMALL"
+    shape = "SMALL1"
     key_name = var.key_name
     owner = var.owner
 }
