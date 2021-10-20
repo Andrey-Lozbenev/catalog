@@ -16,6 +16,7 @@ variable "image" {
 }
 
 variable "shape" {
+    default = "SMALL"
     description = "m3shape"
 }
  
